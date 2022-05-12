@@ -67,6 +67,10 @@ a {
     text-shadow: -8rem 0.25rem 0.25rem hsl(248deg 70% 35%), 0rem 2rem 0.25rem hsl(80deg 70% 35%), 0rem -1.5rem 0.25rem hsl(322deg 70% 35%), 8rem 0rem 0.25rem hsl(190deg 70% 35%);
 }
 
+.main__wrapper {
+    padding: 2rem 0;
+}
+
 .footer {
     background-color: #202A36;
     padding: 1.2rem 0;
