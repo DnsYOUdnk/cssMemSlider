@@ -89,7 +89,7 @@ a {
     border-radius: 0.625rem;
     width: 32rem;
     overflow: hidden;
-    /* box-shadow: 0rem 0rem 4rem rgba(27, 131, 152, 0.7); */
+    box-shadow: 0rem 0rem 12rem rgba(31, 148, 172, 0.7);
 }
 
 .main__slider__view__item{
