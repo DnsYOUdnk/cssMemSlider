@@ -1,81 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="dnsYOUdnk">
-    <meta name="description" content="MeM slider task RSSchool-2022">
-    <link rel="icon" href="./assets/image/favicon.png">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="dnsYOUdnk" />
+    <meta name="description" content="MeM slider task RSSchool-2022" />
+    <link rel="icon" href="./assets/image/favicon.png" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>MeM Slider</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="mem-slider">
-        <header class="header">
-            <div class="container">
-                <div class="header__wrapper">
-                    <h1>MeM Slider</h1>
-                </div>
+      <header class="header">
+        <div class="container">
+          <div class="header__wrapper">
+            <h1>MeM Slider</h1>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div class="main__wrapper">
+            <input type="radio" name="slider-btn" id="slider-btn-1" checked />
+            <input type="radio" name="slider-btn" id="slider-btn-2" />
+            <input type="radio" name="slider-btn" id="slider-btn-3" />
+            <input type="radio" name="slider-btn" id="slider-btn-4" />
+            <input type="radio" name="slider-btn" id="slider-btn-5" />
+            <input type="radio" name="slider-btn" id="slider-btn-6" />
+            <div class="main__slider__view">
+              <div class="main__slider__view__item">
+                <img src="./assets/image/img-mem-3.jpg" alt="doge-life-mem" />
+              </div>
+              <div class="main__slider__view__item">
+                <img src="./assets/image/img-mem-2.jpg" alt="garold-mem" />
+              </div>
+              <div class="main__slider__view__item">
+                <img src="./assets/gif/gif-mem-1.gif" alt="guy-mem" />
+              </div>
+              <div class="main__slider__view__item">
+                <img src="./assets/image/img-mem-1.jpg" alt="doge-mem" />
+              </div>
+              <div class="main__slider__view__item">
+                <img src="./assets/gif/gif-mem-2.gif" alt="facepalm-mem" />
+              </div>
+              <div class="main__slider__view__item">
+                <img src="./assets/gif/gif-mem-3.gif" alt="travolta-mem" />
+              </div>
             </div>
-        </header>
-        <main class="main">
-            <div class="container">
-                <div class="main__wrapper">
-                    <input type="radio" name="slider-btn" id="slider-btn-1" checked>
-                    <input type="radio" name="slider-btn" id="slider-btn-2">
-                    <input type="radio" name="slider-btn" id="slider-btn-3">
-                    <input type="radio" name="slider-btn" id="slider-btn-4">
-                    <input type="radio" name="slider-btn" id="slider-btn-5">
-                    <input type="radio" name="slider-btn" id="slider-btn-6">
-                    <div class="main__slider__view">
-                        <div class="main__slider__view__item">
-                            <img src="./assets/image/img-mem-3.jpg" alt="doge-life-mem">
-                        </div>
-                        <div class="main__slider__view__item">
-                            <img src="./assets/image/img-mem-2.jpg" alt="garold-mem">
-                        </div>
-                        <div class="main__slider__view__item">
-                            <img src="./assets/gif/gif-mem-1.gif" alt="guy-mem">
-                        </div>
-                        <div class="main__slider__view__item">
-                            <img src="./assets/image/img-mem-1.jpg" alt="doge-mem">
-                        </div>
-                        <div class="main__slider__view__item">
-                            <img src="./assets/gif/gif-mem-2.gif" alt="facepalm-mem">
-                        </div>
-                        <div class="main__slider__view__item">
-                            <img src="./assets/gif/gif-mem-3.gif" alt="travolta-mem">
-                        </div>
-                    </div>
-                    <div class="main__slider__description">
-                        <div class="main__slider__description__item"><span>состояние - понедельник</span> </div>
-                        <div class="main__slider__description__item"><span>садишься начать проект и узнаешь о его дедлайне, который был вчера</span></div>
-                        <div class="main__slider__description__item"><span>отец посмотрел историю браузера на твоем компе</span></div>
-                        <div class="main__slider__description__item"><span>ПУК</span></div>
-                        <div class="main__slider__description__item"><span>зашел почитать свои диалоги 10-летней давности</span></div>
-                        <div class="main__slider__description__item"><span>когда пришел на встречу впускников, а тебе 90 лет</span></div>
-                    </div>
-                    <div class="main__slider__switches">
-                        <label for="slider-btn-1" class="slider__toggle-switch"><span class="main__slider__switch"></span></label>
-                        <label for="slider-btn-2" class="slider__toggle-switch"><span class="main__slider__switch"></span></label>
-                        <label for="slider-btn-3" class="slider__toggle-switch"><span class="main__slider__switch"></span></label>
-                        <label for="slider-btn-4" class="slider__toggle-switch"><span class="main__slider__switch"></span></label>
-                        <label for="slider-btn-5" class="slider__toggle-switch"><span class="main__slider__switch"></span></label>
-                        <label for="slider-btn-6" class="slider__toggle-switch"><span class="main__slider__switch"></span></label>
-                    </div>
+            <div class="main__slider__complement">
+              <div class="main__slider__description">
+                <div class="main__slider__description__item">
+                  <span>состояние - понедельник</span>
                 </div>
-            </div>
-        </main>
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__wrapper">
-                    <a href="https://github.com/DnsYOUdnk" target="_blank">dnsYOUdnk</a>
-                    <span>&copy; 2022</span>
-                    <a href="https://github.com/rolling-scopes-school/tasks/tree/master/tasks/css-mem-slider" target="_blank">RSSchool</a>
+                <div class="main__slider__description__item">
+                  <span
+                    >садишься начать проект и узнаешь о его дедлайне, который
+                    был вчера</span
+                  >
                 </div>
+                <div class="main__slider__description__item">
+                  <span>отец посмотрел историю браузера на твоем компе</span>
+                </div>
+                <div class="main__slider__description__item">
+                  <span>ПУК</span>
+                </div>
+                <div class="main__slider__description__item">
+                  <span>зашел почитать свои диалоги 10-летней давности</span>
+                </div>
+                <div class="main__slider__description__item">
+                  <span>получил максимальный балл за таск</span>
+                </div>
+              </div>
+              <div class="main__slider__switches">
+                <label for="slider-btn-1" class="slider__toggle-switch"
+                  ><span class="main__slider__switch"></span
+                ></label>
+                <label for="slider-btn-2" class="slider__toggle-switch"
+                  ><span class="main__slider__switch"></span
+                ></label>
+                <label for="slider-btn-3" class="slider__toggle-switch"
+                  ><span class="main__slider__switch"></span
+                ></label>
+                <label for="slider-btn-4" class="slider__toggle-switch"
+                  ><span class="main__slider__switch"></span
+                ></label>
+                <label for="slider-btn-5" class="slider__toggle-switch"
+                  ><span class="main__slider__switch"></span
+                ></label>
+                <label for="slider-btn-6" class="slider__toggle-switch"
+                  ><span class="main__slider__switch"></span
+                ></label>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <a href="https://github.com/DnsYOUdnk" target="_blank">dnsYOUdnk</a>
+            <span>&copy; 2022</span>
+            <a
+              href="https://github.com/rolling-scopes-school/tasks/tree/master/tasks/css-mem-slider"
+              target="_blank"
+              >RSSchool</a
+            >
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
