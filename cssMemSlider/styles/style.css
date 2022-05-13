@@ -96,7 +96,6 @@ a {
     display: flex;
     align-items: center;
     transition: 1s;
-    transform: translateX(-500%);
 }
 
 .main__slider__view__item img{
@@ -128,6 +127,8 @@ a {
 .main__slider__description__item span{
     display: block;
     width: 20rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
 }
 
 .main__slider__switches {
@@ -153,19 +154,52 @@ a {
 
 .slider__toggle-switch:hover .main__slider__switch{
     background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
-    border-radius: 0.25rem;
-    box-shadow: inset 0 0 0.125rem rgb(0, 0, 0)
 }
 
 .slider__toggle-switch:active .main__slider__switch{
     transform: scale(0.6);
 }
 
-.main__wrapper #slider-btn-1:checked ~ .main__slider__complement > .main__slider__switches label[for=slider-btn-1] > .main__slider__switch {
+.main__wrapper #slider-btn-1:checked ~ .main__slider__complement > .main__slider__switches label[for=slider-btn-1] > .main__slider__switch,
+.main__wrapper #slider-btn-2:checked ~ .main__slider__complement > .main__slider__switches label[for=slider-btn-2] > .main__slider__switch,
+.main__wrapper #slider-btn-3:checked ~ .main__slider__complement > .main__slider__switches label[for=slider-btn-3] > .main__slider__switch,
+.main__wrapper #slider-btn-4:checked ~ .main__slider__complement > .main__slider__switches label[for=slider-btn-4] > .main__slider__switch,
+.main__wrapper #slider-btn-5:checked ~ .main__slider__complement > .main__slider__switches label[for=slider-btn-5] > .main__slider__switch,
+.main__wrapper #slider-btn-6:checked ~ .main__slider__complement > .main__slider__switches label[for=slider-btn-6] > .main__slider__switch {
     background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
     border-radius: 0.25rem;
     box-shadow: inset 0 0 0.125rem rgb(0, 0, 0)
 
+}
+
+.main__wrapper #slider-btn-1:checked ~ .main__slider__view > .main__slider__view__item,
+.main__wrapper #slider-btn-1:checked ~ .main__slider__complement .main__slider__description__item {
+    transform: translateX(0%);
+}
+
+.main__wrapper #slider-btn-2:checked ~ .main__slider__view > .main__slider__view__item,
+.main__wrapper #slider-btn-2:checked ~ .main__slider__complement .main__slider__description__item {
+    transform: translateX(-100%);
+}
+
+.main__wrapper #slider-btn-3:checked ~ .main__slider__view > .main__slider__view__item,
+.main__wrapper #slider-btn-3:checked ~ .main__slider__complement .main__slider__description__item {
+    transform: translateX(-200%);
+}
+
+.main__wrapper #slider-btn-4:checked ~ .main__slider__view > .main__slider__view__item,
+.main__wrapper #slider-btn-4:checked ~ .main__slider__complement .main__slider__description__item {
+    transform: translateX(-300%);
+}
+
+.main__wrapper #slider-btn-5:checked ~ .main__slider__view > .main__slider__view__item,
+.main__wrapper #slider-btn-5:checked ~ .main__slider__complement .main__slider__description__item {
+    transform: translateX(-400%);
+}
+
+.main__wrapper #slider-btn-6:checked ~ .main__slider__view > .main__slider__view__item,
+.main__wrapper #slider-btn-6:checked ~ .main__slider__complement .main__slider__description__item {
+    transform: translateX(-500%);
 }
 
 .footer {
